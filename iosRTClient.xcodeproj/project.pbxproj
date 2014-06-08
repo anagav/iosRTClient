@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3625CA5E1944F7A6002E29D5 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625CA5C1944F7A6002E29D5 /* MovieViewController.m */; };
+		3625CA5F1944F7A6002E29D5 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3625CA5D1944F7A6002E29D5 /* MovieViewController.xib */; };
 		36791DA719438BE5009CF87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DA619438BE5009CF87F /* Foundation.framework */; };
 		36791DA919438BE5009CF87F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DA819438BE5009CF87F /* CoreGraphics.framework */; };
 		36791DAB19438BE5009CF87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DAA19438BE5009CF87F /* UIKit.framework */; };
@@ -19,6 +21,14 @@
 		36791DC219438BE5009CF87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DAA19438BE5009CF87F /* UIKit.framework */; };
 		36791DCA19438BE5009CF87F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36791DC819438BE5009CF87F /* InfoPlist.strings */; };
 		36791DCC19438BE5009CF87F /* iosRTClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DCB19438BE5009CF87F /* iosRTClientTests.m */; };
+		36791DD719438DC9009CF87F /* SerializedRTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DD619438DC9009CF87F /* SerializedRTClient.m */; };
+		36791DDB19438FB4009CF87F /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DD919438FB4009CF87F /* RTViewController.m */; };
+		36791DDF1943961B009CF87F /* ParsedRTDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DDE1943961B009CF87F /* ParsedRTDataModel.m */; };
+		36791DE21943A2CB009CF87F /* MovieList.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DE11943A2CB009CF87F /* MovieList.m */; };
+		36791DE31943A52F009CF87F /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36791DE51943A52F009CF87F /* RTViewController.xib */; };
+		36791DE91943BA2A009CF87F /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36791DE71943BA2A009CF87F /* MovieCell.m */; };
+		36791DEA1943BA2A009CF87F /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36791DE81943BA2A009CF87F /* MovieCell.xib */; };
+		F89178F28C6841E79DD53EDD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BF13CDF97A459796650E9B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19BF13CDF97A459796650E9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625CA5B1944F7A6002E29D5 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		3625CA5C1944F7A6002E29D5 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		3625CA5D1944F7A6002E29D5 /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
 		36791DA319438BE5009CF87F /* iosRTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosRTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36791DA619438BE5009CF87F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36791DA819438BE5009CF87F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,19 @@
 		36791DC719438BE5009CF87F /* iosRTClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosRTClientTests-Info.plist"; sourceTree = "<group>"; };
 		36791DC919438BE5009CF87F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36791DCB19438BE5009CF87F /* iosRTClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosRTClientTests.m; sourceTree = "<group>"; };
+		36791DD519438DC9009CF87F /* SerializedRTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializedRTClient.h; sourceTree = "<group>"; };
+		36791DD619438DC9009CF87F /* SerializedRTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializedRTClient.m; sourceTree = "<group>"; };
+		36791DD819438FB4009CF87F /* RTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		36791DD919438FB4009CF87F /* RTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		36791DDD1943961B009CF87F /* ParsedRTDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsedRTDataModel.h; sourceTree = "<group>"; };
+		36791DDE1943961B009CF87F /* ParsedRTDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsedRTDataModel.m; sourceTree = "<group>"; };
+		36791DE01943A2CB009CF87F /* MovieList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieList.h; sourceTree = "<group>"; };
+		36791DE11943A2CB009CF87F /* MovieList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieList.m; sourceTree = "<group>"; };
+		36791DE41943A52F009CF87F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
+		36791DE61943BA2A009CF87F /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		36791DE71943BA2A009CF87F /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		36791DE81943BA2A009CF87F /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		B5A81B8F3916442F9E66997B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 				36791DA919438BE5009CF87F /* CoreGraphics.framework in Frameworks */,
 				36791DAB19438BE5009CF87F /* UIKit.framework in Frameworks */,
 				36791DA719438BE5009CF87F /* Foundation.framework in Frameworks */,
+				F89178F28C6841E79DD53EDD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,7 @@
 				36791DC519438BE5009CF87F /* iosRTClientTests */,
 				36791DA519438BE5009CF87F /* Frameworks */,
 				36791DA419438BE5009CF87F /* Products */,
+				B5A81B8F3916442F9E66997B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +129,7 @@
 				36791DA819438BE5009CF87F /* CoreGraphics.framework */,
 				36791DAA19438BE5009CF87F /* UIKit.framework */,
 				36791DBF19438BE5009CF87F /* XCTest.framework */,
+				19BF13CDF97A459796650E9B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +141,21 @@
 				36791DB619438BE5009CF87F /* AppDelegate.m */,
 				36791DB819438BE5009CF87F /* Images.xcassets */,
 				36791DAD19438BE5009CF87F /* Supporting Files */,
+				36791DD519438DC9009CF87F /* SerializedRTClient.h */,
+				36791DD619438DC9009CF87F /* SerializedRTClient.m */,
+				36791DD819438FB4009CF87F /* RTViewController.h */,
+				36791DD919438FB4009CF87F /* RTViewController.m */,
+				36791DE51943A52F009CF87F /* RTViewController.xib */,
+				36791DDD1943961B009CF87F /* ParsedRTDataModel.h */,
+				36791DDE1943961B009CF87F /* ParsedRTDataModel.m */,
+				36791DE01943A2CB009CF87F /* MovieList.h */,
+				36791DE11943A2CB009CF87F /* MovieList.m */,
+				36791DE61943BA2A009CF87F /* MovieCell.h */,
+				36791DE71943BA2A009CF87F /* MovieCell.m */,
+				36791DE81943BA2A009CF87F /* MovieCell.xib */,
+				3625CA5B1944F7A6002E29D5 /* MovieViewController.h */,
+				3625CA5C1944F7A6002E29D5 /* MovieViewController.m */,
+				3625CA5D1944F7A6002E29D5 /* MovieViewController.xib */,
 			);
 			path = iosRTClient;
 			sourceTree = "<group>";
@@ -151,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36791DCF19438BE5009CF87F /* Build configuration list for PBXNativeTarget "iosRTClient" */;
 			buildPhases = (
+				F2581670927740B9A77BC6FE /* Check Pods Manifest.lock */,
 				36791D9F19438BE5009CF87F /* Sources */,
 				36791DA019438BE5009CF87F /* Frameworks */,
 				36791DA119438BE5009CF87F /* Resources */,
+				953BE00FB9A843F689C2740C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,8 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36791DE31943A52F009CF87F /* RTViewController.xib in Resources */,
 				36791DB119438BE5009CF87F /* InfoPlist.strings in Resources */,
 				36791DB919438BE5009CF87F /* Images.xcassets in Resources */,
+				3625CA5F1944F7A6002E29D5 /* MovieViewController.xib in Resources */,
+				36791DEA1943BA2A009CF87F /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +284,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		953BE00FB9A843F689C2740C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2581670927740B9A77BC6FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36791D9F19438BE5009CF87F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36791DE91943BA2A009CF87F /* MovieCell.m in Sources */,
+				36791DD719438DC9009CF87F /* SerializedRTClient.m in Sources */,
+				36791DDF1943961B009CF87F /* ParsedRTDataModel.m in Sources */,
+				36791DE21943A2CB009CF87F /* MovieList.m in Sources */,
 				36791DB719438BE5009CF87F /* AppDelegate.m in Sources */,
+				36791DDB19438FB4009CF87F /* RTViewController.m in Sources */,
 				36791DB319438BE5009CF87F /* main.m in Sources */,
+				3625CA5E1944F7A6002E29D5 /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +366,14 @@
 				36791DC919438BE5009CF87F /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36791DE51943A52F009CF87F /* RTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36791DE41943A52F009CF87F /* en */,
+			);
+			name = RTViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,6 +451,7 @@
 		};
 		36791DD019438BE5009CF87F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A81B8F3916442F9E66997B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +465,7 @@
 		};
 		36791DD119438BE5009CF87F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A81B8F3916442F9E66997B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +536,7 @@
 				36791DD119438BE5009CF87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36791DD219438BE5009CF87F /* Build configuration list for PBXNativeTarget "iosRTClientTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +545,7 @@
 				36791DD419438BE5009CF87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
