@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "RTViewController.h"
+
 
 @implementation AppDelegate
 
@@ -15,6 +17,35 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    RTViewController *bOffice = [[RTViewController alloc] initWithName:@"BoxOffice"];
+    
+    UINavigationController *bOfficeController = [[UINavigationController alloc] initWithRootViewController:bOffice];
+    
+
+    
+    RTViewController *inTheater = [[RTViewController alloc] initWithName:@"inTheater"];
+    
+    
+    UINavigationController *inTheaterController = [[UINavigationController alloc] initWithRootViewController:inTheater];
+    
+    
+
+    
+    tabBarController.viewControllers = @[bOfficeController  , inTheaterController];
+    
+    
+    bOfficeController.tabBarItem.title = @"Box Office";
+    //bOffice.tabBarItem.image = [UIImage imageNamed:@"House"];
+    
+    inTheaterController.tabBarItem.title = @"In Theater";
+    //bOffice.tabBarItem.image = [UIImage imageNamed:@"House"];
+
+    
+    self.window.rootViewController = tabBarController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
