@@ -31,18 +31,15 @@
     
     UINavigationController *inTheaterController = [[UINavigationController alloc] initWithRootViewController:inTheater];
     
+    bOfficeController.tabBarItem.title = @"Box Office";
+    bOfficeController.tabBarItem.image = [UIImage imageNamed:@"boxoffice-16.png"];
     
+    inTheaterController.tabBarItem.title = @"In Theater";
+    inTheaterController.tabBarItem.image = [UIImage imageNamed:@"Theater-32.png"];
 
     
     tabBarController.viewControllers = @[bOfficeController  , inTheaterController];
     
-    
-    bOfficeController.tabBarItem.title = @"Box Office";
-    //bOffice.tabBarItem.image = [UIImage imageNamed:@"House"];
-    
-    inTheaterController.tabBarItem.title = @"In Theater";
-    //bOffice.tabBarItem.image = [UIImage imageNamed:@"House"];
-
     
     self.window.rootViewController = tabBarController;
     
