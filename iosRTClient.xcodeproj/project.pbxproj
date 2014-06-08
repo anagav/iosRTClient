@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3625CA5E1944F7A6002E29D5 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625CA5C1944F7A6002E29D5 /* MovieViewController.m */; };
 		3625CA5F1944F7A6002E29D5 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3625CA5D1944F7A6002E29D5 /* MovieViewController.xib */; };
+		3625CA6F194522F3002E29D5 /* boxoffice-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625CA6E194522F3002E29D5 /* boxoffice-16.png */; };
 		36791DA719438BE5009CF87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DA619438BE5009CF87F /* Foundation.framework */; };
 		36791DA919438BE5009CF87F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DA819438BE5009CF87F /* CoreGraphics.framework */; };
 		36791DAB19438BE5009CF87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36791DAA19438BE5009CF87F /* UIKit.framework */; };
@@ -46,6 +47,7 @@
 		3625CA5B1944F7A6002E29D5 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		3625CA5C1944F7A6002E29D5 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 		3625CA5D1944F7A6002E29D5 /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
+		3625CA6E194522F3002E29D5 /* boxoffice-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boxoffice-16.png"; path = "../../../Downloads/boxoffice-16.png"; sourceTree = "<group>"; };
 		36791DA319438BE5009CF87F /* iosRTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosRTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36791DA619438BE5009CF87F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36791DA819438BE5009CF87F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 		36791DAC19438BE5009CF87F /* iosRTClient */ = {
 			isa = PBXGroup;
 			children = (
+				3625CA6E194522F3002E29D5 /* boxoffice-16.png */,
 				36791DB519438BE5009CF87F /* AppDelegate.h */,
 				36791DB619438BE5009CF87F /* AppDelegate.m */,
 				36791DB819438BE5009CF87F /* Images.xcassets */,
@@ -266,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3625CA6F194522F3002E29D5 /* boxoffice-16.png in Resources */,
 				36791DE31943A52F009CF87F /* RTViewController.xib in Resources */,
 				36791DB119438BE5009CF87F /* InfoPlist.strings in Resources */,
 				36791DB919438BE5009CF87F /* Images.xcassets in Resources */,
