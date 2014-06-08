@@ -11,9 +11,10 @@
 
 
 @interface MovieViewController ()
+
+
 @property (weak, nonatomic) IBOutlet UIImageView *movFullImageView;
 @property (weak, nonatomic) IBOutlet UILabel *movFullsynopsisView;
-@property (weak, nonatomic) IBOutlet UIScrollView *movScrollVoew;
 
 
 @end
@@ -47,8 +48,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _movFullsynopsisView.text = content;
-    _movFullsynopsisView.textColor = [UIColor whiteColor];
+    self.movFullsynopsisView.text = content;
+    self.movFullsynopsisView.textColor = [UIColor whiteColor];
     
     NSURLRequest *imageRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:imageurl]];
     
