@@ -97,6 +97,7 @@ NSString* type;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+   
         
     }
     return self;
@@ -127,6 +128,7 @@ NSString* type;
     self = [super init];
     if (self){
         NSLog(@"Setting type to %@",_type);
+        self.title = _type;
         type = _type;
     }
     return self;
